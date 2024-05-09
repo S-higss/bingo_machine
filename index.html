@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>BINGO</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+  <span id="current-ball"></span>
+  <button id="next-ball" disabled="disabled">NEXT BALL</button>
+  <button id="new-game">NEW GAME</button>
+  <input type="checkbox" id="shuffle-effect-enabled" checked="checked" style="display: none;">
+  
+  <!-- 抽選済み数字の表示領域 -->
+  <div id="balls">
+    <!-- B 列 -->
+    <div id="ball_name" class="bingo-heading">B</div>
+    <div id="ball-1"></div>
+    <div id="ball-2"></div>
+    <div id="ball-3"></div>
+    <div id="ball-4"></div>
+    <div id="ball-5"></div>
+    <div id="ball-6"></div>
+    <div id="ball-7"></div>
+    <div id="ball-8"></div>
+    <div id="ball-9"></div>
+    <div id="ball-10"></div>
+    <div id="ball-11"></div>
+    <div id="ball-12"></div>
+    <div id="ball-13"></div>
+    <div id="ball-14"></div>
+    <div id="ball-15"></div>
+    <!-- I 列 -->
+    <div id="ball_name" class="bingo-heading">I</div>
+    <div id="ball-16"></div>
+    <div id="ball-17"></div>
+    <div id="ball-18"></div>
+    <div id="ball-19"></div>
+    <div id="ball-20"></div>
+    <div id="ball-21"></div>
+    <div id="ball-22"></div>
+    <div id="ball-23"></div>
+    <div id="ball-24"></div>
+    <div id="ball-25"></div>
+    <div id="ball-26"></div>
+    <div id="ball-27"></div>
+    <div id="ball-28"></div>
+    <div id="ball-29"></div>
+    <div id="ball-30"></div>
+    <!-- N 列 --> 
+    <div id="ball_name" class="bingo-heading">N</div>
+    <div id="ball-31"></div>
+    <div id="ball-32"></div>
+    <div id="ball-33"></div>
+    <div id="ball-34"></div>
+    <div id="ball-35"></div>
+    <div id="ball-36"></div>
+    <div id="ball-37"></div>
+    <div id="ball-38"></div>
+    <div id="ball-39"></div>
+    <div id="ball-40"></div>
+    <div id="ball-41"></div>
+    <div id="ball-42"></div>
+    <div id="ball-43"></div>
+    <div id="ball-44"></div>
+    <div id="ball-45"></div>  
+    <!-- G 列 -->
+    <div class="bingo-heading">G</div>
+    <div id="ball-46"></div>
+    <div id="ball-47"></div>
+    <div id="ball-48"></div>
+    <div id="ball-49"></div>
+    <div id="ball-50"></div>
+    <div id="ball-51"></div>
+    <div id="ball-52"></div>
+    <div id="ball-53"></div>
+    <div id="ball-54"></div>
+    <div id="ball-55"></div>
+    <div id="ball-56"></div>
+    <div id="ball-57"></div>
+    <div id="ball-58"></div>
+    <div id="ball-59"></div>
+    <div id="ball-60"></div>
+    <!-- O 列 -->
+    <div class="bingo-heading">O</div>
+    <div id="ball-61"></div>
+    <div id="ball-62"></div>
+    <div id="ball-63"></div>
+    <div id="ball-64"></div>
+    <div id="ball-65"></div>
+    <div id="ball-66"></div>
+    <div id="ball-67"></div>
+    <div id="ball-68"></div>
+    <div id="ball-69"></div>
+    <div id="ball-70"></div>
+    <div id="ball-71"></div>
+    <div id="ball-72"></div>
+    <div id="ball-73"></div>
+    <div id="ball-74"></div>
+    <div id="ball-75"></div>  
+  </div>
+  
+  <!-- JavaScript ファイルの読み込み -->
+  <script src="./src/bingo_generator.js"></script>
+  <script src="./src/bingo.js"></script>
+</body>
+</html>
